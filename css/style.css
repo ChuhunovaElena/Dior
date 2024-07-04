@@ -88,16 +88,18 @@ body{
     margin-bottom: 20px;
 }
 .top-slide__btn{
+    margin-left: auto;
+}
+.button{
     color: #7449BB;
     text-transform: uppercase;
     font-weight: 700;
     padding: 21px 55px;
     border: 1px solid #7449BB;
     display: inline-block;
-    margin-left: auto;
     transition: all .3s ease;
 }
-.top-slide__btn:hover{
+.button:hover{
     color: #fff;
     background-color: #7449BB;
 }
@@ -108,6 +110,7 @@ body{
     position: relative;
     padding: 0;
     max-width: 1200px;
+
 }
 .top .swiper{
     padding-bottom: 50px;
@@ -118,6 +121,7 @@ body{
 }
 .about{
     margin-bottom: 150px;
+    overflow: hidden;
 }
 .about__inner{
     padding-left: 200px;
@@ -146,4 +150,20 @@ line-height: 1.2;
 }
 .about__text--bold{
     font-weight: 700;
+}
+.about__item-title{
+ margin-bottom: 20px;
+}
+.about__slider{
+    width: 1600px;
+    padding-left: 200px;
+    margin-left: -200px;
+    padding-bottom: 20px;
+}
+.about__arrow{
+    margin-left: -198px;
+    margin-top: -6px;
+}
+.container-arrow .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled{
+    opacity: 1;
 }
